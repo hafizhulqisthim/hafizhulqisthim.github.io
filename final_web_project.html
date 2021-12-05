@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Warung online</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="final_css.css">
+	<script type="text/javascript">
+	function message(){
+		alert("Selamat Datang Kembali!")
+	}
+	</script>
+</head>
+<body bgcolor=#606060>
+	<body onload = "message()">
+	<div class="bottom1"> 	
+		<table border="1" style="width:10%" align="center" cellpadding="1" cellspacing="1" bgcolor=#606060>
+			<tr height="10">
+				<td><a href="final_web_project.html">Home</a></td>				
+				<td><a href="pembelian.php">Pembelian</a></td>
+			</tr>
+		</table>
+		<br>
+		<h1><marquee width = "100%" bgcolor=#606060>
+		selamat datang di Warung Online</marquee></h1>
+		<table style="width:75%" border="0" align="center" bgcolor="white" cellpadding="1" cellspacing="15">
+			<th colspan="3" bgcolor="gray" height="10">PROMO HARI INI</th>
+			<tr>
+				<td bgcolor="gray" height="20" align="center">Beras<br> Pulen</td>
+				<td bgcolor="gray" align="center">Telur<br>Ayam</td>
+				<td bgcolor="gray" align="center">Galon<br>Mineral</td>
+			</tr>			
+			<tr>
+				<td bgcolor="white"><img src="beras.jpg" align="center" width="100" height="100" style="display: block; margin: auto;"></td>
+				<td bgcolor="white"><img src="telur.jpg" align="center" width="100" height="100" style="display: block; margin: auto;"></td>
+				<td bgcolor="white"><img src="air.jpg" align="center" width="100" height="100" style="display: block; margin: auto;"></td>
+			</tr>
+			<tr>
+				<td bgcolor="white" height="10" align="center">8k / kg</td>
+				<td bgcolor="white" align="center">12k / kg</td>
+				<td bgcolor="white" align="center">11k / 15L</td>
+			</tr>
+		</table>
+	</div>
+	<div class="bottom1">
+		<div class="content">
+    		<h1>contoh iklan</h1>
+    	</div>
+ 		<a href="https://www.unilever.co.id/"><img src="unilever.png" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a> 		
+ 	</div>
+ 		<br>
+ 	<div class="main">
+ 		<div class="sisi2">
+ 			<h3 align="center">Pemesanan Promo</h3>
+ 			<form action = "pemesanan_promo.php" method = "post">
+			Nama : <input type = "text" name = "nama" size = "15" maxlength = "30">	
+			<br>		
+			Jenis Kelamin :
+			<br>
+			<input type = "radio" name = "jeniskel" value = "Laki-Laki"> Laki - Laki 
+			<input type = "radio" name = "jeniskel" value = "Perempuan">Perempuan
+			<br>
+			Pembayaran :
+			<select name = "pembayaran">			
+			<option value = "Debit">Debit
+			<option value = "Tunai">Tunai			
+			</select>
+			<br>
+			Masukkan jumlah uang : <input type = "text" name = "uang" size = "5" maxlength = "10">
+			<br>		
+			Pilih Promo:
+			<br>
+			<input type = "checkbox" name = "promo1" value = "Beras">Beras Pulen<br>
+			<input type = "checkbox" name = "promo2" value = "Telur">Telur Ayam<br>
+			<input type = "checkbox" name = "promo3" value = "Galon">Galon Mineral<br>
+			<br>
+			<input type = "submit" value = "Kirim"><input type = "reset" value = "Batal">
+			</form>
+ 		</div>
+ 		<div class="sisi2">
+ 			<h3 align="center">Call-Center</h3>
+ 			<p align="center"><strong><a href="https://www.google.com/search?q=warung%20online&bih=647&biw=681&rlz=1C1FKPE_idID941ID941&hl=de&sxsrf=ALeKk01Z7_JVgdPUA1e8KtesIN4cdGlQEA:1621703045095&ei=BDqpYI3QMI6y9QPY_bSoDg&oq=warung+online&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCCMQJxATMgUIABDLATIFCAAQywEyBQgAEMsBMgsIABDHARCvARDLATIFCAAQywEyBQgAEMsBMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxCwAxAnOgcIABBHELADUMgKWMgKYIkQaAFwAngAgAFJiAF_kgEBMpgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=15657533894334912745&lqi=Cg13YXJ1bmcgb25saW5lWh4KDXdhcnVuZyBvbmxpbmUiDXdhcnVuZyBvbmxpbmWSAQpyZXN0YXVyYW50qgEVEAEqESINd2FydW5nIG9ubGluZSgA&phdesc=BZFf1j9h49M&ved=2ahUKEwj3grzP4t3wAhWRfn0KHRUpC9cQvS4wAHoECAQQHA&rlst=f#rlfi=hd:;si:15657533894334912745,l,Cg13YXJ1bmcgb25saW5lWh4KDXdhcnVuZyBvbmxpbmUiDXdhcnVuZyBvbmxpbmWSAQpyZXN0YXVyYW50qgEVEAEqESINd2FydW5nIG9ubGluZSgA,y,BZFf1j9h49M;mv:[[-6.150668899999999,107.0899519],[-6.3799964,106.8110435]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9" >0895-1013-3***</a></strong></p>
+ 			<p align = "center"><img src="warung.jpg" alt="Notebook" width="47%" style="display: block; margin: auto;"></p> 			
+ 			<p><a href="https://www.google.com/search?q=warung%20online&bih=647&biw=681&rlz=1C1FKPE_idID941ID941&hl=de&sxsrf=ALeKk01Z7_JVgdPUA1e8KtesIN4cdGlQEA:1621703045095&ei=BDqpYI3QMI6y9QPY_bSoDg&oq=warung+online&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCCMQJxATMgUIABDLATIFCAAQywEyBQgAEMsBMgsIABDHARCvARDLATIFCAAQywEyBQgAEMsBMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxCwAxAnOgcIABBHELADUMgKWMgKYIkQaAFwAngAgAFJiAF_kgEBMpgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=15657533894334912745&lqi=Cg13YXJ1bmcgb25saW5lWh4KDXdhcnVuZyBvbmxpbmUiDXdhcnVuZyBvbmxpbmWSAQpyZXN0YXVyYW50qgEVEAEqESINd2FydW5nIG9ubGluZSgA&phdesc=BZFf1j9h49M&ved=2ahUKEwj3grzP4t3wAhWRfn0KHRUpC9cQvS4wAHoECAQQHA&rlst=f#rlfi=hd:;si:15657533894334912745,l,Cg13YXJ1bmcgb25saW5lWh4KDXdhcnVuZyBvbmxpbmUiDXdhcnVuZyBvbmxpbmWSAQpyZXN0YXVyYW50qgEVEAEqESINd2FydW5nIG9ubGluZSgA,y,BZFf1j9h49M;mv:[[-6.150668899999999,107.0899519],[-6.3799964,106.8110435]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9">Jalan Manunggal Jakarta Timur, 13620</a>
+ 		</div>
+ 		<div class="sisi2">
+ 			<h3 align="center">Menu Belanjaan</h3>
+ 			<p>
+ 				<ul>
+ 					<li>Tisu Facial 250sh</a></li>
+					<li>Susu Literan</a></li>
+ 					<li>Beras Rojolele Kiloan</a></li>
+ 					<li>Gula Kiloan</a></li>
+ 					<li>Sabun Batang</a></li>	
+ 					<li>Garam Kiloan</a></li>
+ 					<li>Deterjen Kiloan</a></li>
+ 					<li>Roti</a></li>
+ 					<li>Eskrim batang</a></li>
+ 					<li>Shampo</a></li>
+ 					<a href="pembelian.php">>>Menuju Pembelian</a>		
+ 				</ul>
+ 			</p>
+ 		</div>
+ 		<div class="sisi2">
+ 			<h3 align="center">Beri Ulasan</h3>
+ 			<p align="center">Bagaimana dengan Penilaian Anda</p>
+ 			<table border="0" width="60%" align="center" cellpadding="1" cellspacing="10" bgcolor="white">
+			<tr height="10">
+				<td><a href="final_web_project.html"><img src="senang.png" onclick="alert('Terima kasih atas ulasannya!')" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+				<td><a href="final_web_project.html"><img src="sedih2.png" onclick="alert('Terima kasih atas ulasannya!')" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+			</table>
+			<form action = "final_web_project.html" method = "post";>
+			<pre>
+Email  <input type = "text" name = "email"/>
+Ulasan <textarea name = "ulasan" rows = "3" cols = "22"></textarea>
+<input type = "submit" onclick="alert('Terima kasih atas ulasannya!')" value = "Submit"><input type = "reset" value = "Cancel">
+			</pre>
+			</form>
+ 		</div>
+ 	</div>
+	<div class="footer">
+		<p align="center"> Media Sosial Kami:</p>
+		<table border="0" width="60%" align="center" cellpadding="1" cellspacing="1" bgcolor="white">
+			<tr height="10">
+				<td><a href="https://www.instagram.com/"><img src="instagram.png" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+				<td><a href="https://twitter.com"><img src="twitter.png" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+				<td><a href="https://www.facebook.com/"><img src="facebook.png" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+				<td><a href="https://www.tiktok.com/"><img src="tiktok2.png" alt="Notebook" align="center" width="50%" height="100" style="display: block; margin: auto;"></a></td>
+			</tr>
+		</table>
+ 		<p align="center"> Kel Praktek : WP1.19.2A.06.A</p>
+ 		<script type="text/javascript">
+			var d = new Date()
+			var weekday = new
+			Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+			var monthname = new
+			Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+			document.write(weekday[d.getDay()] + " ")
+			document.write(d.getDate() + ". ")
+			document.write(monthname[d.getMonth()] + " ")
+			document.write(d.getFullYear())
+		</script>
+ 	</div>
+</body>
+</html>
